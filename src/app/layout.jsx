@@ -7,8 +7,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Artist Area | Wiraa",
-  description: "Laman resmi Abbulosibatang Pramuka Salis",
+  title: "Scoutify",
+  description: "Laman resmi Scoutify",
 };
 
 export default function RootLayout({ children }) {
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
           rel="stylesheet"
         />
-        <meta name="description" content="abbscout" />
+        <meta name="description" content="scoutify" />
       </head>
       <body className={` ${poppins.className} antialiased`}>{children}</body>
     </html>

@@ -1,20 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import "bootstrap/scss/bootstrap"; */
 
-/* app/globals.css */
 body {
   font-family: 'Poppins', sans-serif;
 }
 
 .no-scrollbar::-webkit-scrollbar {
-  display: none; /* Menghilangkan scrollbar untuk WebKit (Chrome, Safari) */
+  display: none;
 }
 
 .no-scrollbar {
-  -ms-overflow-style: none;  /* Untuk Internet Explorer dan Edge */
-  scrollbar-width: none; /* Untuk Firefox */
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
 }
 
 * {
@@ -53,13 +51,13 @@ html::-webkit-scrollbar-track {
 }
 
 .hover\:text-shadow-yellow:hover {
-  text-shadow: 2px 2px 6px #FEF600; /* Bayangan kuning saat hover */
+  text-shadow: 2px 2px 6px #FEF600;
 }
 .hover\:text-shadow-black:hover {
-  text-shadow: 2px 2px 6px #000000; /* Bayangan kuning saat hover */
+  text-shadow: 2px 2px 6px #000000; 
 }
 .hover\:text-shadow-white:hover {
-  text-shadow: 2px 2px 6px #fff; /* Bayangan kuning saat hover */
+  text-shadow: 2px 2px 6px #fff; 
 }
 
 #efekKaca {
